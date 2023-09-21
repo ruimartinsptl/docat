@@ -8,7 +8,8 @@ image:
   repository: ghcr.io/docat-org/docat
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  # tag: "latest"
+  tag: "1.1.1"
 
 imagePullSecrets: []
 nameOverride: ""
